@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(117, 117, 248);
+  font-family: Arial, sans-serif; 
+}
+
+.btn-clr {
+  border: 5px solid green;
+  background-color: green;
+  border-radius: 50px;
+  width: 150px;
+  color: white; 
+  font-size: 1.2em; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.3s, color 0.3s;
+}
+
+.btn-clr:hover {
+  background-color: darkgreen; 
+  transform: scale(1.05); 
+}
+
+.btn-clr:active {
+  background-color: forestgreen; 
+  transform: scale(1); 
+}

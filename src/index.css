@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(117, 117, 248);
+  font-family: Arial, sans-serif; /* Adding a default font */
+}
+
+.qst-pad {
+  padding: 100px;
+  background-color: white;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center; /* Fixed typo: changed 'text-emphasis' to 'text-align' */
+  border-radius: 10px; /* Adding border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adding box shadow for depth effect */
+}
+
+.qst-pad h1 {
+  margin-bottom: 20px;
+  color: #333; /* Changing h1 color */
+}
+
+.qst-pad ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.qst-pad ul li {
+  display: inline-block;
+  margin: 20px;
+  padding: 15px;
+  background-color: skyblue;
+  border: 1px solid skyblue; 
+  border-radius: 50px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease; 
+}
+
+.qst-pad ul li:hover {
+  transform: translateY(-5px); 
+}
+
+.qst-pad button {
+  margin: 10px;
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+.qst-pad button:hover {
+  transform: scale(1.05); 
+}
+
+.btn-1 {
+  background-color: rgb(80, 115, 161);
+  color: white; 
+}
+
+.btn-2 {
+  background-color: rgb(51, 219, 51);
+  color: white; 
+}
+
+.btn-3 {
+  background-color: red;
+  color: white; 
+}
